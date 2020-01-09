@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+}
+
+body {
+    color: #FFFFFF;
+    background-color: #3E4039;
+}
+
+nav {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid #84837A .1em;
+}
+
+#logo {
+    padding: 0.8em;
+    padding-left: 1.2em;
+    padding-right: 1.2em;
+    border-right: solid #84837A .1em;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    margin: 0.3em;
+}
+
+#navbar li {
+    margin: 0.5em;
+    padding-right: 0.4em;
+}
+
+#navbar li a {
+    color: #FFFFFF;
+    padding: 0.2em;
+    text-decoration: none;
+}
+
+#navbar li a:hover {
+    color: #f57631;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+main {
+    margin: 2.5em;
+    display: flex;
+    flex-direction: row;
+}
+
+#left {
+    width: 50%;
+    margin-left: .5em;
+    margin-right: .5em;
+}
+
+#info {
+    display: flex;
+    flex-direction: row;
+}
+
+#dateshort {
+    margin-right: .5em;
+    font-size: 40px;
+}
+
+#author {
+    margin-left: .5em;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #f57631;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+#visual {
+    position: relative;
+    margin-top: 14em;
+}
+
+.img-large {
+    margin-bottom: 1em;
+    max-width: 80%;
+}
+
+.img-small {
+    position: absolute;
+    max-width: 40%;
+    top: 67%;
+    right: -5%;
+}
+
+#right {
+    width: 50%;
+    margin-left: .5em;
+    margin-right: .5em;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+h1 {
+    margin-top: .6em;
+    margin-bottom: .2em;
+    font-size: 65px;
+    text-align: right;
+    color: #f57631;
+}
+
+#addt {
+    text-align: right;
+    color: #f57631;
+}
+
+.content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: right;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.category {
+    text-transform: uppercase;
+}
+
+h2 {
+    margin-bottom: .5em;
+    text-align: right;
+    width: 65%;
+}
+
+p {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: left;
+}
+
+footer {
+    position: relative;
+    top: -1.5em;
+    margin: 3em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.caption {
+    color: #ff7a30;
+}
+
+.like {
+}
